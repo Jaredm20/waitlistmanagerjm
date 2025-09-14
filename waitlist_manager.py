@@ -123,6 +123,6 @@ Design Memo: Write Your Design Memo Include a 200–300 word response in your co
 - When might a real engineer need a custom list like this?
 
 My list works by storing each inserted customer as a node. The program works by referencing the position of the head (first item in list essentially) and then going down the list from there. When it comes to adding or subtracting a name from the list, the sequence references the head node and moves from there.
-The head is what allows for all the functions in the menu to work, the functions act as pointers around the head.
-Theres multiple ways you could use a list designed like this for, one of them could be a to-do list because engineering jobs typically stack up. Maybe the engineer is making a wait list for a restaurant that needs to have some sort of list that can adapt rather than set in stone. 
+The head is what allows for all the functions in the menu to work, the functions act as pointers around the head. So every person that is added to the list is added after the head, if the head is removed then the next node / person becomes the head node and so on and so forth. To put it blatantly, the list functions off the head node.
+Theres multiple ways you could use a list designed like this for, one of them could be a to-do list because engineering jobs typically stack up. Maybe the engineer is making a wait list for a restaurant that needs to have some sort of list that can adapt rather than set in stone. If you look at it from a sports perspective you could rearrange it to function as a depth chart of sorts for any team. The possibilities for engineers and a node list are really endless.
 '''
